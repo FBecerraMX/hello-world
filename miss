@@ -1,0 +1,10 @@
+            int[] arr =
+            {
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 0
+            };
+
+            int arrsum = arr.Sum();
+            int missing = (arr.Length*(arr.Length + 1)/2) - arrsum;
+
+            Console.WriteLine("Missing number is : " + missing.ToString());
+            Console.ReadLine();
